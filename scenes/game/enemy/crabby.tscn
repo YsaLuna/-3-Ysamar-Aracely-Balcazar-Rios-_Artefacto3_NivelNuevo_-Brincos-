@@ -1,0 +1,598 @@
+[gd_scene load_steps=49 format=3 uid="uid://bo37g7mv4j6pn"]
+
+[ext_resource type="Texture2D" uid="uid://hhpw4n5a4j4n" path="res://scenes/game/animacion_estrella/Anticipation/Anticipation 01.png" id="1_vrfdo"]
+[ext_resource type="Texture2D" uid="uid://btjwb7151jk2v" path="res://scenes/game/animacion_estrella/Anticipation/Anticipation 02.png" id="2_ifums"]
+[ext_resource type="Texture2D" uid="uid://3bftg2ei0jw7" path="res://scenes/game/animacion_estrella/Anticipation/Anticipation 03.png" id="3_4piqb"]
+[ext_resource type="Texture2D" uid="uid://butwt0u5heoe4" path="res://scenes/game/animacion_estrella/Attack/Attack 01.png" id="4_21icj"]
+[ext_resource type="Texture2D" uid="uid://87qoqmru0dti" path="res://scenes/game/animacion_estrella/Attack/Attack 02.png" id="5_quqlh"]
+[ext_resource type="Texture2D" uid="uid://cqga352bcatcf" path="res://scenes/game/animacion_estrella/Attack/Attack 03.png" id="6_xirj1"]
+[ext_resource type="Texture2D" uid="uid://d0be1brx3ae3h" path="res://scenes/game/animacion_estrella/Attack/Attack 04.png" id="7_nw545"]
+[ext_resource type="Texture2D" uid="uid://vnrbvwm8j0bp" path="res://scenes/game/animacion_estrella/Dead Ground/Dead Ground 01.png" id="8_pf0y3"]
+[ext_resource type="Texture2D" uid="uid://b03ifaqtwwurg" path="res://scenes/game/animacion_estrella/Dead Ground/Dead Ground 02.png" id="9_2f3fl"]
+[ext_resource type="Texture2D" uid="uid://6h7h7npwko7d" path="res://scenes/game/animacion_estrella/Dead Ground/Dead Ground 03.png" id="10_tvuej"]
+[ext_resource type="Texture2D" uid="uid://ucujhkie2ni" path="res://scenes/game/animacion_estrella/Dead Ground/Dead Ground 04.png" id="11_8sag0"]
+[ext_resource type="Texture2D" uid="uid://drr2ndicxgj7k" path="res://scenes/game/animacion_estrella/Dead Hit/Dead Hit 01.png" id="12_hrnis"]
+[ext_resource type="Texture2D" uid="uid://cghalkpmskw1e" path="res://scenes/game/animacion_estrella/Dead Hit/Dead Hit 02.png" id="13_0hyww"]
+[ext_resource type="Texture2D" uid="uid://g5mqa4g07r2e" path="res://scenes/game/animacion_estrella/Dead Hit/Dead Hit 03.png" id="14_3bubv"]
+[ext_resource type="Texture2D" uid="uid://xjokc30k71m2" path="res://scenes/game/animacion_estrella/Dead Hit/Dead Hit 04.png" id="15_h8861"]
+[ext_resource type="Texture2D" uid="uid://d2y7moeju1ncq" path="res://scenes/game/animacion_estrella/Fall/Fall 01.png" id="16_slvdg"]
+[ext_resource type="Texture2D" uid="uid://boi2tjxj4m1d2" path="res://scenes/game/animacion_estrella/Ground/Ground 01.png" id="17_v2awb"]
+[ext_resource type="Texture2D" uid="uid://dwwtnrr21jyq3" path="res://scenes/game/animacion_estrella/Ground/Ground 02.png" id="18_8pqj5"]
+[ext_resource type="Texture2D" uid="uid://dxvfaagrg7k0o" path="res://scenes/game/animacion_estrella/Hit/Hit 01.png" id="19_chyi5"]
+[ext_resource type="Texture2D" uid="uid://ch8ayommv518h" path="res://scenes/game/animacion_estrella/Hit/Hit 02.png" id="20_6un2f"]
+[ext_resource type="Texture2D" uid="uid://p66ii2afhsxn" path="res://scenes/game/animacion_estrella/Hit/Hit 03.png" id="21_4oe7l"]
+[ext_resource type="Texture2D" uid="uid://cs4fq1r4n58e0" path="res://scenes/game/animacion_estrella/Hit/Hit 04.png" id="22_ys8bl"]
+[ext_resource type="Texture2D" uid="uid://7xyqcl48k077" path="res://scenes/game/animacion_estrella/Idle/Idle 01.png" id="23_48ahy"]
+[ext_resource type="Texture2D" uid="uid://p4ubvjbmhqgp" path="res://scenes/game/animacion_estrella/Idle/Idle 02.png" id="24_6q4te"]
+[ext_resource type="Texture2D" uid="uid://56qj3bj63xcd" path="res://scenes/game/animacion_estrella/Idle/Idle 03.png" id="25_4u2ag"]
+[ext_resource type="Texture2D" uid="uid://b55xjdnh03qki" path="res://scenes/game/animacion_estrella/Idle/Idle 04.png" id="26_egaa5"]
+[ext_resource type="Texture2D" uid="uid://dsaoe0lkrys6r" path="res://scenes/game/animacion_estrella/Idle/Idle 05.png" id="27_8kbdu"]
+[ext_resource type="Texture2D" uid="uid://c0ttwhxq6mvf2" path="res://scenes/game/animacion_estrella/Idle/Idle 06.png" id="28_vvjwj"]
+[ext_resource type="Texture2D" uid="uid://dqtmgnl5yxeyp" path="res://scenes/game/animacion_estrella/Idle/Idle 07.png" id="29_jpnax"]
+[ext_resource type="Texture2D" uid="uid://0b3p4m0vk210" path="res://scenes/game/animacion_estrella/Idle/Idle 08.png" id="30_hfywj"]
+[ext_resource type="Texture2D" uid="uid://0dow1mgu5avd" path="res://scenes/game/animacion_estrella/Jump/Jump 01.png" id="31_lskuo"]
+[ext_resource type="Texture2D" uid="uid://bavagxl1w1jfg" path="res://scenes/game/animacion_estrella/Jump/Jump 02.png" id="32_fqwmw"]
+[ext_resource type="Texture2D" uid="uid://bgpwa3bx6xc1x" path="res://scenes/game/animacion_estrella/Jump/Jump 03.png" id="33_b6p7o"]
+[ext_resource type="Texture2D" uid="uid://fflhb8rt0di2" path="res://scenes/game/animacion_estrella/Run/Run 01.png" id="34_ke3v3"]
+[ext_resource type="Texture2D" uid="uid://c0vwq71subhr0" path="res://scenes/game/animacion_estrella/Run/Run 02.png" id="35_gnefu"]
+[ext_resource type="Texture2D" uid="uid://wvlbkhym4lq6" path="res://scenes/game/animacion_estrella/Run/Run 03.png" id="36_odfnu"]
+[ext_resource type="Texture2D" uid="uid://751mdombri14" path="res://scenes/game/animacion_estrella/Run/Run 04.png" id="37_mlks2"]
+[ext_resource type="Texture2D" uid="uid://dyrbg53vwa3h1" path="res://scenes/game/animacion_estrella/Run/Run 05.png" id="38_ck3ym"]
+[ext_resource type="Texture2D" uid="uid://wlvj4vmphj6w" path="res://scenes/game/animacion_estrella/Run/Run 06.png" id="39_gyc60"]
+[ext_resource type="Texture2D" uid="uid://c8ei7jfar0syp" path="res://scenes/game/enemy/11-Attack Effect/Attack Effect 01.png" id="40_k84tv"]
+[ext_resource type="Texture2D" uid="uid://cqg4arjuy4n1e" path="res://scenes/game/enemy/11-Attack Effect/Attack Effect 02.png" id="41_h5gtj"]
+[ext_resource type="Texture2D" uid="uid://bovg7fg6l5im5" path="res://scenes/game/enemy/11-Attack Effect/Attack Effect 03.png" id="42_v0qqh"]
+[ext_resource type="Texture2D" uid="uid://gxnxira6ugg1" path="res://scenes/game/enemy/11-Attack Effect/Attack Effect 04.png" id="43_jkeu1"]
+
+[sub_resource type="GDScript" id="GDScript_6chrj"]
+script/source = "extends CharacterBody2D
+## Clase que controla animación y configuración del Enemigo
+##
+## Setea la animación y comportamiento del Enemigo 
+
+
+# Acciones del Enemigo
+@export_enum(
+	\"idle\",
+	\"run\",
+) var animation: String
+
+# Dirección de movimiento del Enemigo
+@export_enum(
+	\"left\",
+	\"right\",
+	\"active\",
+) var moving_direction: String
+
+# Variable para control de animación y colisiones
+@onready var _animation := $EnemyAnimation
+@onready var _animation_effect := $EnemyEffect
+@onready var _raycast_terrain := $Area2D/RayCastTerrain
+@onready var _raycast_wall := $Area2D/RayCastWall
+@onready var _raycast_vision_left := $Area2D/RayCastVisionLeft
+@onready var _raycast_vision_right := $Area2D/RayCastVisionRight
+@onready var _audio_player= $AudioStreamPlayer2D # Reproductor de audios
+
+# Definimos sonidos
+var _punch_sound = preload(\"res://assets/sounds/punch.mp3\")
+var _male_hurt_sound = preload(\"res://assets/sounds/male_hurt.mp3\")
+
+# Definición de parametros de física
+var _gravity = 10
+var _speed = 25
+# Definición de dirección de movimientos
+var _moving_left = true
+# Copia de objeto que entra a colisión
+var _body: Node2D
+# Vandera de persecución
+var _is_persecuted = false
+# Vandera de no detectar colisiones
+var _stop_detection = false
+# Vandera de no detectar ataques
+var _stop_attack = false
+# Cuantas veces aguanta
+var _hit_to_die = 3
+# Cuantas veces pegaron al personaje principal
+var _has_hits = 0
+# La muerte del cangrejo
+var die = false
+
+
+# Función de inicialización
+func _ready():
+	# Seteamos la direccion de movimiento
+	if moving_direction == 'right':
+		_moving_left = false
+		scale.x = -scale.x
+	# Si no seteamos la animación ponemos por defecto la animación idle
+	if not animation:
+		animation = \"idle\"
+	# Iniciamos la animación
+	_init_state()
+
+
+func _physics_process(delta):
+	if (die): return
+	# Si la animación es de correr, aplicamos el movimiento
+	if animation == \"run\":
+		_move_character(delta)
+		_turn()
+	# Si la animación es de idle, aplicamos el movimiento
+	elif animation == \"idle\":
+		_move_idle()
+	# Si la animación es de persecución, aplicamos la persecución
+	if moving_direction == \"active\" and !_stop_detection:
+		_detection()
+
+
+func _move_character(_delta):
+	# Aplicamos la gravidad
+	velocity.y += _gravity
+	
+	# Aplicamos la dirección de movimiento
+	if _moving_left:
+		velocity.x = - _speed
+	else:
+		velocity.x = _speed
+
+	# Iniciamos el movimiento
+	move_and_slide()
+
+
+func _move_idle():
+	# Aplicamos la gravidad
+	velocity.y += _gravity
+	# Aplicamos la dirección de movimiento
+	velocity.x = 0
+	# Iniciamos el movimiento
+	move_and_slide()
+
+
+func _on_area_2d_body_entered(body):
+	# Validamos si la colición es con el personaje principal
+	if body.is_in_group(\"player\"):
+		_stop_detection = true
+		# Atacamos
+		_attack()
+		# Creamos la copia de objeto
+		_body = body
+
+
+func _on_area_2d_body_exited(__body):
+	if not die:
+		# Estado inicial
+		_init_state()
+
+
+func _turn():
+	# Validamos si termino el terreno
+	if not _raycast_terrain.is_colliding() or _raycast_wall.is_colliding():
+		var _object = _raycast_wall.get_collider()
+		if not _object or _object and not _object.is_in_group(\"player\"):
+			# Damos la vuelta
+			_moving_left = !_moving_left
+			scale.x = -scale.x
+
+
+func _attack():	
+	# No atacamos si se seteó la banderita _stop_attack
+	if _stop_attack:
+		return
+		
+	if not _body:
+		# Esperamos 1 segundos
+		await get_tree().create_timer(0).timeout
+		_attack()
+		
+	# Animación de atacar
+	_animation.play(\"attack\")
+
+
+func _init_state():
+	if _stop_attack:
+		return
+	# Animación de estado inicial
+	velocity.x = 0
+	_animation.play(animation)
+	_animation_effect.play(\"idle\")
+	# Limpiamos las variables
+	_body = null
+	_stop_detection = false
+
+func _on_enemy_animation_frame_changed():
+	if _stop_attack:
+		return
+	# Validamos si el frame de animación es 0
+	if _animation.frame == 0 and _animation.get_animation() == \"attack\":
+		# Pegamos al personaje
+		_animation_effect.play(\"attack_effect\")
+		
+		if HealthDashboard.life > 0:
+			# Reproducimos sonido
+			_audio_player.stream = _male_hurt_sound
+			_audio_player.play()
+		else:
+			_animation.play(\"idle\")
+			_animation_effect.play(\"idle\")
+		
+		if _body:
+			# Quitamos vidas
+			var _move_script = _body.get_node(\"MainCharacterMovement\")
+			_move_script.hit(2)
+
+
+func _detection():
+	# Si ya no hay tierra regresamos al estado inicial
+	if not _raycast_terrain.is_colliding():
+		# Iniciamos la animación
+		_init_state()
+		return
+	# Obtenemos los colaiders
+	var _object1 = _raycast_vision_left.get_collider()
+	var _object2 = _raycast_vision_right.get_collider()
+	
+	# Validamos si la colisión es del lado izquerdo
+	if _object1 and _object1.is_in_group(\"player\") and _raycast_vision_left.is_colliding():
+		_move(true)
+	else:
+		_is_persecuted = false
+	
+	# Validamos si la colisión es del lado derecho
+	if _object2 and _object2.is_in_group(\"player\") and _raycast_vision_right.is_colliding():
+		_move(false)
+	
+	# No hay colisiones
+	if not _object1 and not _object2 and _animation.get_animation() != \"attack\":
+		_is_persecuted = false
+		
+		
+func _move(_direction):
+	# Si ya estamos en acción salimos
+	if _is_persecuted or _animation.get_animation() == \"attack\":
+		return
+	# Aplicamos la gravidad
+	velocity.y += _gravity
+	
+	# Volteamos al personaje
+	if not _direction:
+		_moving_left = !_moving_left
+		scale.x = -scale.x
+	else:
+		# Aplicamos la dirección de movimiento
+		if _moving_left:
+			velocity.x = - _speed * 5
+		else:
+			velocity.x = _speed * 5
+
+	# Iniciamos el movimiento
+	move_and_slide()
+
+
+func _on_area_2d_area_entered(area):
+	# Si estan atacando al enemigo
+	if area.is_in_group(\"hit\"):
+		_damage()
+	elif area.is_in_group(\"die\"):
+		die = true
+		_damage()
+
+func _damage():	
+	# Agregamos un golpe
+	_has_hits += 1
+	# Reproducimos sonido
+	_audio_player.stream = _punch_sound
+	_audio_player.play()
+	# Reproducimos la animación de pegar
+	_animation.play(\"hit\")
+	_animation_effect.play(\"idle\")
+	
+	# Validamos si tenemos ataque especial
+	if Global.number_attack > 0:
+		# Restamos 1 al ataque especial
+		die = true
+		Global.number_attack -= 1
+	
+	# Validamos si ya no tenemos ataque
+	if Global.number_attack == 0:
+		# Seteamos el ataque normal
+		Global.attack_effect = \"normal\"
+
+	if die or _hit_to_die <= _has_hits:
+		# Seteamoas banderita no atacar
+		_stop_attack = true
+		die = true
+		velocity.x = 0
+		# Lo matamos y quitamos de la escena
+		if _animation.animation != \"dead_ground\":
+			_animation.play(\"dead_ground\")
+
+
+func _on_enemy_animation_animation_finished():
+	if _animation.animation == \"dead_ground\":
+		queue_free()
+	elif _animation.animation == \"hit\":
+		if not _stop_attack: 
+			_animation.play(\"idle\")
+			_animation_effect.play(\"idle\")
+			# Atacamos
+			_attack()
+	
+"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fq7gh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_vrfdo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ifums")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_4piqb")
+}],
+"loop": true,
+"name": &"Anticipation",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_21icj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_quqlh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xirj1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_nw545")
+}],
+"loop": true,
+"name": &"Attack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_pf0y3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_2f3fl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_tvuej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_8sag0")
+}],
+"loop": true,
+"name": &"Dead Ground",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_hrnis")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_0hyww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_3bubv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_h8861")
+}],
+"loop": true,
+"name": &"Dead Hit",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_slvdg")
+}],
+"loop": true,
+"name": &"Fall",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_v2awb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_8pqj5")
+}],
+"loop": true,
+"name": &"Ground",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_chyi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_6un2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_4oe7l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ys8bl")
+}],
+"loop": true,
+"name": &"Hit",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_48ahy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_6q4te")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_4u2ag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_egaa5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_8kbdu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_vvjwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_jpnax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_hfywj")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_lskuo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_fqwmw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_b6p7o")
+}],
+"loop": true,
+"name": &"Jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_ke3v3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_gnefu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_odfnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_mlks2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_ck3ym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_gyc60")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ku5hj"]
+size = Vector2(40, 23)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6nhye"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("40_k84tv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_h5gtj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_v0qqh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_jkeu1")
+}],
+"loop": true,
+"name": &"attack Effect",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_48ahy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_6q4te")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_4u2ag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_egaa5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_8kbdu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_vvjwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_jpnax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_hfywj")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_62ixa"]
+size = Vector2(42, 25)
+
+[node name="Crabby" type="CharacterBody2D"]
+script = SubResource("GDScript_6chrj")
+
+[node name="EnemyAnimation" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_fq7gh")
+animation = &"Anticipation"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, 1.5)
+shape = SubResource("RectangleShape2D_ku5hj")
+
+[node name="EnemyEffect" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_6nhye")
+animation = &"idle"
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(2, 1.5)
+shape = SubResource("RectangleShape2D_62ixa")
+one_way_collision_margin = 0.0
+
+[node name="RayCastTerrain" type="RayCast2D" parent="Area2D"]
+position = Vector2(-19, -7)
+scale = Vector2(0.5, 0.5)
+
+[node name="RayCastWall" type="RayCast2D" parent="Area2D"]
+position = Vector2(-18, 0)
+scale = Vector2(0.5, 0.5)
+target_position = Vector2(-5, 0)
+
+[node name="RayCastVisionLeft" type="RayCast2D" parent="Area2D"]
+position = Vector2(-20, 0)
+scale = Vector2(0.5, 0.5)
+target_position = Vector2(-300, 0)
+
+[node name="RayCastVisionRight" type="RayCast2D" parent="Area2D"]
+position = Vector2(24, 0)
+scale = Vector2(0.5, 0.5)
+target_position = Vector2(300, 0)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+bus = &"Effects"
+
+[connection signal="animation_finished" from="EnemyAnimation" to="." method="_on_enemy_animation_animation_finished"]
+[connection signal="frame_changed" from="EnemyAnimation" to="." method="_on_enemy_animation_frame_changed"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]
